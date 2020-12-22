@@ -1,0 +1,63 @@
+{
+  "_from": "amusing@0.0.2",
+  "_id": "amusing@0.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-ubBTouSBOPuHTKXD1gvfrwsp+E34/piUmym7u6dOW7bsdGCWKSv9dIfpwFHGex304RZbe/d0N57lddpggBIZdg==",
+  "_location": "/amusing",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "amusing@0.0.2",
+    "name": "amusing",
+    "escapedName": "amusing",
+    "rawSpec": "0.0.2",
+    "saveSpec": null,
+    "fetchSpec": "0.0.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/amusing/-/amusing-0.0.2.tgz",
+  "_shasum": "4ecf63af1aa9f2f8d8c7fbdbfc34aed2b220c131",
+  "_spec": "amusing@0.0.2",
+  "_where": "I:\\amusingTests\\test1",
+  "author": {
+    "name": "Ahmed Ibrahim"
+  },
+  "bugs": {
+    "url": "https://github.com/ahmedibrahim404/amusing/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "deprecated": false,
+  "description": "Framework that helps you to generate Progressive Web Application ( PWA ).",
+  "homepage": "https://github.com/ahmedibrahim404/amusing#readme",
+  "keywords": [
+    "Amusing",
+    "Clientside"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "amusing",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmedibrahim404/amusing.git"
+  },
+  "version": "0.0.2"
+}
