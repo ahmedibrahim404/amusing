@@ -71,6 +71,61 @@ var notificationsClick = [
   }
 ];
 ```
+#### Controlling Elements
+Navigate to your Component, Components are mainly divided into 3 parts JS, HTML, and CSS
+In JS file you will find your component, there you can put your function
+##### 1- Data-binding
+Suppose we want to bind automatically keeps your page up-to-date based on the state, to state something like value of an input, ..etc .
+```js
+// Inside your Component JS file
+class Input {
+    constructor(){
+        .
+        .
+        .
+        this.state={
+            message:"Initial value"
+        }
+    }
+    
+    inputChange(e){
+        this.setState({
+            message:e.value
+        });
+    }
+    
+}
+
+
+```
+```html
+<input type="input" value={message} change="inputChange"/>
+<label>{message}</label>
+```
+##### 2- Handing Elements
+- Click Event
+- Change Event
+
+Click Event: Can be assigned for elements which can be clicked as button,...etc .
+```js
+// Inside your Component JS file
+    clickFunc(e){
+        console.log("CLICKED")
+    }
+```
+```html
+<button click="clickFunc">Click Here</button>
+```
+Change Event: Can be assigned for elements whose value changes as input,...etc .
+```js
+// Inside your Component JS file
+    changeFunc(e){
+        console.log("NEW VALUE IS ", e.value);
+    }
+```
+```html
+<input type="text" change="changeFunc" />
+```
 
 
 
