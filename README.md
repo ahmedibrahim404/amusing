@@ -127,17 +127,17 @@ Change Event: Can be assigned for elements whose value changes as input,...etc .
 <input type="text" change="changeFunc" />
 ```
 #### Routing System
-First you need to call function ```js initRouter ``` into your main file
+First you need to call function ```initRouter``` into your main file
 ```js
 import Router from 'amusing/router';
 Router.initRouter();
 ```
-To assign a specific router to a component use function ```js add ```
+To assign a specific router to a component use function ```add```
 ```js
 // import AuthComponent
 Router.add('/auth', AuthComponent); // example
 ```
-You can also do this using ```js addAll ``` which takes multiple routes
+You can also do this using ```addAll``` which takes multiple routes
 ```js
 Router.addAll([
     { route:'/authentication', component:AuthComponent },
