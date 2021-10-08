@@ -1,7 +1,7 @@
 # Amusing
 
-Amusing is a client-side framework, which aims to build SPA supporting offline usage ( PWA )
-It was built in 2018.
+Amusing is a mini client-side framework, which aims to build SPA supporting offline usage ( PWA )
+It was built in 2018
 
 ## New Features!
 
@@ -126,6 +126,27 @@ Change Event: Can be assigned for elements whose value changes as input,...etc .
 ```html
 <input type="text" change="changeFunc" />
 ```
-
+#### Routing System
+First you need to call function ```js initRouter ``` into your main file
+```js
+import Router from 'amusing/router';
+Router.initRouter();
+```
+To assign a specific router to a component use function ```js add ```
+```js
+// import AuthComponent
+Router.add('/auth', AuthComponent); // example
+```
+You can also do this using ```js addAll ``` which takes multiple routes
+```js
+Router.addAll([
+    { route:'/authentication', component:AuthComponent },
+    { route:'/login', component:LoginComponent },
+    { route:'/register', component:registerComponent },
+    { route:'/home', component:HomeComponent },
+    { route:'*', component:ErrorComponent }
+]);
+```
+In the previous example '*' route means anything except for the routes provided
 
 
